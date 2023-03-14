@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Classification</title>
+    <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href=  "{{ url_for('static', filename='stylesheets/style.css') }}"
+  />
+</head>
+  </head>
+  <body>
+    <main>
+      <h1 >FARMICON</h1>
+    <h2 class="element">  </h2>
+    <p class="first"style="white-space: pre-line;">
+ To determine if a plant has disease 
+ or not,you must upload an image of
+ a plant leaf.Uploaded image is fed 
+ into a deep learning model that has 
+ already been trained.
+
+ The uploaded image is just processed
+ It is not kept.
+</p>
+   <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+      
+      <input type="file" id="image" name="image">
+      <label for="image"></label>
+      <input type="submit" value="Upload and Predict">
+    <form id="name">
+	<!--<img id="preview-image" src='https://m.media-amazon.com/images/I/71apInVNGxL._SX679_.jpg' alt="Preview Image">-->
+</div>
+      
+    </form>
+    </main>
+  </body>
+</html>

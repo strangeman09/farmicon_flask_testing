@@ -1,0 +1,99 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 60.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/884/695/original/dynamic-grey-gradient-animation-smooth-gradient-background-liquid-gradient-moving-background-free-video.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* LAYOUT */
+main {
+  position: relative;
+  width: 98rem;
+  height:92rem;
+  background-image: url('lk2.jpeg');
+  box-shadow: 0 3rem 5rem rgba(251, 247, 250, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+
+.element {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top:7rem;
+  text-align:left;
+  margin-left:50px;
+  color:aliceblue;
+/* Use the line-break property to break the text into 3 lines */
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.element::before {
+  content: "Plant Disease \A Predicition";
+  white-space: pre;
+}
+
+h1{
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left:50px;
+  text-align:left;
+  color:white;
+
+}
+
+.first{
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-left:50px;
+  text-align:left;
+  color:aliceblue;
+  
+  
+}
+input,
+button {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #444;
+  width: 20REM;
+}
+#image {
+  margin-top:2rem ;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  background-color: #181d2a;
+  color:white;
+
+}
+input[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+  margin-top:20px;
+  margin-left: 50px;
+  background-color: #181d2a;
+  border:2px solid  rgb(232, 236, 239);
+  color:white ;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+

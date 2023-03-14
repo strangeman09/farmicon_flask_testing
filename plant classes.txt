@@ -1,0 +1,14 @@
+class_names=['Apple__Apple_scab', 'Apple_Black_rot', 'Apple_Cedar_apple_rust', 'Apple_healthy', 
+'Cherry_Powdery_mildew', 'Cherry_healthy', 'Orange_Haunglongbing(Citrus_greening)',
+ 'Peach__Bacterial_spot', 'Peach_healthy', 'Pepper_bell_Bacterial_spot', 'Pepper_bell_healthy', 
+'Potato_Early_blight', 'Potato_Late_blight', 'Potato_healthy', 'Squash_Powdery_mildew', 'Strawberry_Leaf_scorch',
+ 'Strawberry_healthy', 'Tomato_Bacterial_spot', 'Tomato_Early_blight', 'Tomato_Late_blight', 
+'Tomato_Leaf_Mold', 'Tomato_Septoria_leaf_spot', 'Tomato_Spider_mites Two-spotted_spider_mite', 'Tomato_Target_Spot', 
+'Tomato_Tomato_Yellow_Leaf_Curl_Virus', 'Tomato_healthy', 'Tomato_mosaic_virus', 
+'banana_healthy', 'banana_segatoka', 'banana_xamthomonas', 'orange_Canker', 'orange_Greening', 'orange_Scab', 'orange_healthy', 'rice_Bacterial_leaf _blight', 'rice_Brown_Spot', 'rice_Healthy', 'rice_Hispa', 'rice_Leaf_Blast', 'rice_Leaf_smut', 
+'soyabean_Caterpillar', 'soyabean_Diabrotica_speciosa', 'soybean_healthy',
+'sugarcane Bacterial_Blight', 'sugarcane_ Infected', 'sugarcane_Healthy_corn', 'sugercane_red_ hot', 
+'tea_leaf_blight', 'tea_red_leaf_spot', 'tea_red_scab', 'wheat_Healthy', 'wheat_septoria', 'wheat_stripe_rust']
+
+treatment=['spray tridemorph 0.1 % before flowering and mancozeb 0.25 % at bearing stage','Treatment of fruits with linseed oil or mustard oil or castor oil','Containing sulfur and pyrethrins, Bonide® Orchard Spray is a safe, one-hit concentrate for insect attacks and fungal problems. For best results, apply as a protective spray (2.5 oz/ gallon) early in the season. If disease, insects or wet weather are present, mix 5 oz in one gallon of water. Thoroughly spray all parts of the plant, especially new shoots.',
+'',' Spray Carbendazim 500 g or wettable sulphur 1500g/ha or Propiconazole 500 ml/ha at initiation of the disease and 10 days later.','',

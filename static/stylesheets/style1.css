@@ -1,0 +1,189 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 60.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: url("https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289facc9a52f636546eb6fd_dark-green-gradient.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  width: 105rem;
+  height:92rem;
+  background-image: url('img.jpeg');
+  box-shadow: 0 3rem 3rem rgba(251, 247, 250, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 40px;
+    margin-top:15rem;
+    margin-left:50px;
+    text-align:center;
+    color:white;
+  }
+  
+  #imgss{
+      margin-top:1rem;
+      margin-left:80px;
+      border: 10px;
+      width:250px;
+  }
+   h2
+   {
+   font-size: 35px;
+    margin-top:2rem;
+    text-align:left;
+  display: flex;
+     flex-direction: column;
+    color:white;
+    display: flex;
+    margin-right:1rem;
+   }
+   h3
+   {
+   font-size: 30px;
+    margin-top:2rem;
+    text-align:left;
+    margin-right: 20px;
+    color:white;
+   }
+  
+  h4
+   {
+   font-size: 26px;
+    margin-top:2rem;
+   margin-right: 6rem;;
+    text-align:left;
+    color:white;
+   }
+   h5
+   {
+   font-size: 23px;
+    margin-top:2rem;
+    text-align:left;
+  margin-left:8rem;
+    color:white;  
+   }
+  
+  /*.image-container {
+          display: flex;
+          align-items: center;
+        }
+        .image-container img {
+          max-width: 50%;
+          margin-right: 20px;
+        }
+  
+  .container {
+    display: flex;
+    align-items: left;
+    padding:10px;
+  }
+  
+  .input-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
+  */
+  
+   .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;;
+    
+  }
+  
+  .image-container {
+    
+    margin-right: 5px;
+      display: flex;
+      margin-left: 20rem;
+  }
+  .image-container img {
+      align-items: center;
+      max-width: 80%;
+      margin-right: 50px;
+      
+      
+      }
+  
+  
+  .input-box-container {
+    display: flex;
+     flex-direction: column;
+     margin-top:10px;
+    margin-bottom: 40px;
+    align-items: center; 
+    margin-right:1rem;
+  }
+  
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 2rem;
+  margin-left: 35rem;
+  color: white;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.result-label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.confidence-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+  height: 0.5rem;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.confidence-level {
+  height: 100%;
+  border-radius: 10px;
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

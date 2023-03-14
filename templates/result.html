@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Classification Result</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style1.css') }}" />
+  </head>
+
+  <body>
+    <main> 
+      <h1>RESULT FROM DEEP LEARNING MODEL</h1>
+
+      <div class="input-container">
+        <form class="image-container" action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+          <!--<input type="file" name="image">
+          <input type="submit" value="Upload Image">-->
+       
+
+          <img src="data:image/jpeg;base64,{{ image }}" width="300" height="300">
+        
+        </form>
+        <!---
+        <div class="input-box-container">
+
+        <h2>Result: </h2>
+          <input id="my_input" name="my_input" type="text" value="{{ result1 }}">
+
+        <h3>Accuracy:</h3>
+          <input id="acc" name="acc" type="text" value="{{ accuracy }}">
+        <h4>Info about prediction:</h4>
+          <input id="info" name="info" type="text" value="{{ info }}">
+        
+      </div>
+    -->
+    <div class="input-box-container">
+      <div class="container-2"></div>
+       <h2>Plant Name: </h2>
+        <input id="my_input" name="my_input" type="text" value="{{ result1 }}",value="This is read-only" readonly>
+    <h3>Confidence:</h3>
+      <input id="acc" name="acc" type="text" value="{{ accuracy }}",value="This is read-only" readonly>
+    <h4>Plant Condition:</h4>
+      <input id="disease" name="disease" type="text" value="{{ disease }}",value="This is read-only" readonly>
+      <h5>Info about prediction:</h5>
+      <input id="info" name="info" type="text" value="{{ info }}",value="This is read-only" readonly>
+  </div>
+      </div>
+    </main>
+  </body>
+</html>
